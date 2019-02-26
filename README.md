@@ -10,7 +10,7 @@ Semantic segmentation is a critical module in robotics related applications, esp
 
 The recent appoarch in semantic segmentation is using deep neural network, specifically **Fully Convolutional Network** (a.k.a FCN). We can follow the trend of semantic segmenation approach at: [paper-with-code](https://paperswithcode.com/sota/semantic-segmentation-pascal-voc-2012).
 
-Metrics: **mIOU**, accuracy, speed,...
+Evaluate metrics: **mIOU**, accuracy, speed,...
 
 ## State-Of-The-Art (SOTA) methods of Semantic Segmentation
 |                   | Paper                                                                            | Benchmark on PASALVOC12 | Release     | Implement                                                                                                                                                                                            |
@@ -35,12 +35,13 @@ Metrics: **mIOU**, accuracy, speed,...
 * FCN: 
 
 ## Review list of Semantic Segmentation
-* A peek of Semantic Segmentation 2018 ([mc.ai](https://mc.ai/a-peek-at-semantic-segmentation-2018/))
-* Semantic Segmentation guide 2018 ([towardds](https://towardsdatascience.com/semantic-segmentation-with-deep-learning-a-guide-and-code-e52fc8958823))
-* Recent progress in semantic image segmentation 2018 ([arxiv](https://arxiv.org/abs/1809.10198), [towardsdatascience](https://towardsdatascience.com/paper-summary-recent-progress-in-semantic-image-segmentation-d7b93ee1b705))
-* A 2017 Guide to Semantic Segmentation Deep Learning Review ([blog.qure.ai](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review#large-kernel))
-* Review popular network architecture ([medium-towardds](https://towardsdatascience.com/@sh.tsang))
-* A Survey of Semantic Segmentation 2016 ([arxiv](https://arxiv.org/pdf/1602.06541.pdf))
+* A peek of Semantic Segmentation 2018 ([mc.ai](https://mc.ai/a-peek-at-semantic-segmentation-2018/)) :star: :star: :star: :star:
+* Semantic Segmentation guide 2018 ([towardds](https://towardsdatascience.com/semantic-segmentation-with-deep-learning-a-guide-and-code-e52fc8958823)) :star: :star: :star: :star:
+* Recent progress in semantic image segmentation 2018 ([arxiv](https://arxiv.org/abs/1809.10198), [towardsdatascience](https://towardsdatascience.com/paper-summary-recent-progress-in-semantic-image-segmentation-d7b93ee1b705)) :star: :star: :star: :star:
+* A 2017 Guide to Semantic Segmentation Deep Learning Review ([blog.qure.ai](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review#large-kernel)) :star: :star: :star: :star: :star:
+* Review popular network architecture ([medium-towardds](https://towardsdatascience.com/@sh.tsang)) :star: :star: :star: :star: :star:
+* Lecture 11 - Detection and Segmentation - CS231n ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture11.pdf), [vid](https://www.youtube.com/watch?v=nDPWywWRIRo)): :star: :star: :star: :star: :star: 
+* A Survey of Semantic Segmentation 2016 ([arxiv](https://arxiv.org/pdf/1602.06541.pdf)) :star: :star: :star: :star: :star:
 
 ## Most used loss function
 * Pixel-wise cross entropy loss:
@@ -53,6 +54,11 @@ Metrics: **mIOU**, accuracy, speed,...
 * [Semantic Segmentation Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite) (by George Seif): *Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!*
 
 ## Related work 
+* [Atrous/ Dilated Convolution](http://www.ee.bgu.ac.il/~rrtammy/DNN/StudentPresentations/TopazDCNN_CRF.pptx): like normal convolution but delivers a wider field of view at the same computational cost. 
+* [Transpose Convolution](https://towardsdatascience.com/up-sampling-with-transposed-convolution-9ae4f2df52d0) (Deconvolution, Upconvolution)
+* [Unpooling](https://towardsdatascience.com/review-deconvnet-unpooling-layer-semantic-segmentation-55cf8a6e380e)
+* [A technical report on convolution arithmetic in the context of deep learning](https://github.com/vdumoulin/conv_arithmetic)
+* [CRF](https://arxiv.org/pdf/1711.04483.pdf): *post processing to smooth the prediction scores*
 
 > ## Feel free to show your :heart: by giving a star :star:
 
