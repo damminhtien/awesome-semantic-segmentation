@@ -1,6 +1,6 @@
-# Awesome Semantic Segmentation 2D
+# Awesome Semantic Segmentation 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-> ## List of awesome things around semantic segmentation 2D :tada: 
+> ## List of awesome things around semantic segmentation :tada: 
 
 Semantic segmentation is **a computer vision task in which we label specific regions of an image according to what's being shown**. Semantic segmentation awswers for the question: "*What's in this image, and where in the image is it located?*".
 
@@ -15,12 +15,17 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 ## State-Of-The-Art (SOTA) methods of Semantic Segmentation
 |                   | Paper                                                                            | Benchmark on PASALVOC12 | Release     | Implement                                                                                                                                                                                            |
 |-------------------|-----------------------------------------------------------------------------------|-------------------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DeepLab V3+       | Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation | 89%                     | ECCV 2018   | [TF](https://github.com/tensorflow/models/tree/master/research/deeplab), [Keras](https://github.com/bonlime/keras-deeplab-v3-plus), [Pytorch](https://github.com/jfzhang95/pytorch-deeplab-xception), [Demo](https://colab.sandbox.google.com/github/tensorflow/models/blob/master/research/deeplab/deeplab_demo.ipynb) |
-| DeepLab V3        | Rethinking Atrous Convolution for Semantic Image Segmentation                     | 86.9%                   | 17 Jun 2017 | [TF](https://github.com/tensorflow/models/tree/master/research/deeplab), [TF](https://github.com/rishizek/tensorflow-deeplab-v3)                                                                                                                              |
-| PSPNet            | Pyramid Scene Parsing Network                                                     | 85.4%                   | CVPR 2017   | [Keras](https://github.com/hszhao/PSPNet), [Pytorch](https://github.com/warmspringwinds/pytorch-segmentation-detection), [Pytorch](https://github.com/kazuto1011/pspnet-pytorch)                     |
-| ResNet-38 MS COCO | Wider or Deeper: Revisiting the ResNet Model for Visual Recognition               | 84.9%                    | 30 Nov 2016 | [MXNet](https://github.com/itijyou/ademxapp)                                                                                                                                                         |
+| DeepLab V3+       | [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1802.02611v3.pdf) | 89%                     | ECCV 2018   | [TF](https://github.com/tensorflow/models/tree/master/research/deeplab), [Keras](https://github.com/bonlime/keras-deeplab-v3-plus), [Pytorch](https://github.com/jfzhang95/pytorch-deeplab-xception), [Demo](https://colab.sandbox.google.com/github/tensorflow/models/blob/master/research/deeplab/deeplab_demo.ipynb) |
+| DeepLab V3        | [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587v3.pdf)                     | 86.9%                   | 17 Jun 2017 | [TF](https://github.com/tensorflow/models/tree/master/research/deeplab), [TF](https://github.com/rishizek/tensorflow-deeplab-v3)                                                                                                                              |
+| Smooth Network with Channel Attention Block        | [Learning a Discriminative Feature Network for Semantic Segmentation](https://arxiv.org/pdf/1804.09337v1.pdf)                     | 86.2%                   | CVPR 2018  | [Pytorch](https://github.com/ycszen/TorchSeg)                                                                                                                              |
+| PSPNet            | [Pyramid Scene Parsing Network](https://arxiv.org/pdf/1612.01105v2.pdf)                                                     | 85.4%                   | CVPR 2017   | [Keras](https://github.com/hszhao/PSPNet), [Pytorch](https://github.com/warmspringwinds/pytorch-segmentation-detection), [Pytorch](https://github.com/kazuto1011/pspnet-pytorch)                     |
+| ResNet-38 MS COCO | [Wider or Deeper: Revisiting the ResNet Model for Visual Recognition](https://arxiv.org/pdf/1611.10080v1.pdf)               | 84.9%                    | 30 Nov 2016 | [MXNet](https://github.com/itijyou/ademxapp)                                                                                                                                                         |
 | RefineNet | [RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation](https://arxiv.org/abs/1611.06612)               | 84.2%                    | CVPR 2017 | [Matlab](https://github.com/guosheng/refinenet), [Keras](https://github.com/Attila94/refinenet-keras)                                                                                                                                                         |
 | GCN | [Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network](https://arxiv.org/abs/1703.02719v1)               | 83.6%                    | CVPR 2017 | [TF](https://github.com/preritj/segmentation)                                                                                                                                                         |
+| CRF-RNN | [Conditional Random Fields as Recurrent Neural Networks](https://arxiv.org/pdf/1502.03240v3.pdf)               | 74.7%                    | ICCV 2015 | [Matlab](https://github.com/torrvision/crfasrnn), [TF](https://github.com/sadeepj/crfasrnn_keras)                         |
+| ParseNet | [ParseNet: Looking Wider to See Better](https://arxiv.org/pdf/1506.04579v2.pdf)               | 69.8%                    | 15 Jun 2015  | [Caffe](https://github.com/debidatta/caffe-parsenet)                         |
+| Dilated Convolutions | [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/pdf/1511.07122v3.pdf)               | 67.6%                    | 23 Nov 2015  | [Caffe](https://github.com/fyu/dilation)                         |
+| FCN | [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1605.06211v1.pdf)               | 67.2%                    | CVPR 2015 | [Caffe](https://github.com/shelhamer/fcn.berkeleyvision.org)                         |
 * DeepLabV3+:
 * DeepLabV3:
 * PSPNet:
@@ -47,6 +52,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * Pixel-wise cross entropy loss:
 * Dice loss: which is pretty nice for balancing dataset
 * Focal loss:
+* Lovasz-Softmax loss:
 
 ## Dataset
 
