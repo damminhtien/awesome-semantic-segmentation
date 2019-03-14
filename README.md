@@ -26,18 +26,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 | ParseNet | [ParseNet: Looking Wider to See Better](https://arxiv.org/pdf/1506.04579v2.pdf)               | 69.8%                    | 15 Jun 2015  | [Caffe](https://github.com/debidatta/caffe-parsenet)                         |
 | Dilated Convolutions | [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/pdf/1511.07122v3.pdf)               | 67.6%                    | 23 Nov 2015  | [Caffe](https://github.com/fyu/dilation)                         |
 | FCN | [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1605.06211v1.pdf)               | 67.2%                    | CVPR 2015 | [Caffe](https://github.com/shelhamer/fcn.berkeleyvision.org)                         |
-* DeepLabV3+:
-* DeepLabV3:
-* PSPNet:
-* Large Kernel Matter:
-* ResNet38 MSCOCO:
-* Multipath-RefineNet:
-* CRF-RNN:
-* DeepLabV2:
-* DeepLabV1:
-* Fully Dilated Convolutions Neural Net:
-* SegNet:
-* FCN: 
+
 
 ## Review list of Semantic Segmentation
 * A peek of Semantic Segmentation 2018 ([mc.ai](https://mc.ai/a-peek-at-semantic-segmentation-2018/)) :star: :star: :star: :star:
@@ -60,11 +49,11 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * [Semantic Segmentation Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite) (by George Seif): *Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!*
 
 ## Related work 
-* [Atrous/ Dilated Convolution](http://www.ee.bgu.ac.il/~rrtammy/DNN/StudentPresentations/TopazDCNN_CRF.pptx): like normal convolution but delivers a wider field of view at the same computational cost. 
+* [Atrous/ Dilated Convolution](http://www.ee.bgu.ac.il/~rrtammy/DNN/StudentPresentations/TopazDCNN_CRF.pptx)
 * [Transpose Convolution](https://towardsdatascience.com/up-sampling-with-transposed-convolution-9ae4f2df52d0) (Deconvolution, Upconvolution)
 * [Unpooling](https://towardsdatascience.com/review-deconvnet-unpooling-layer-semantic-segmentation-55cf8a6e380e)
 * [A technical report on convolution arithmetic in the context of deep learning](https://github.com/vdumoulin/conv_arithmetic)
-* [CRF](https://arxiv.org/pdf/1711.04483.pdf): *post processing to smooth the prediction scores*
+* [CRF](https://arxiv.org/pdf/1711.04483.pdf)
 
 > ## Feel free to show your :heart: by giving a star :star:
 
