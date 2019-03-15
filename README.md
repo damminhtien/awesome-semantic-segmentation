@@ -26,7 +26,8 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 | ParseNet | [ParseNet: Looking Wider to See Better](https://arxiv.org/pdf/1506.04579v2.pdf)               | 69.8%                    | 15 Jun 2015  | [Caffe](https://github.com/debidatta/caffe-parsenet)                         |
 | Dilated Convolutions | [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/pdf/1511.07122v3.pdf)               | 67.6%                    | 23 Nov 2015  | [Caffe](https://github.com/fyu/dilation)                         |
 | FCN | [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1605.06211v1.pdf)               | 67.2%                    | CVPR 2015 | [Caffe](https://github.com/shelhamer/fcn.berkeleyvision.org)                         |
-
+### Variant
+* FCN with VGG(Resnet, Densenet) backbone: [pytorch](https://github.com/zengxianyu/FCN)
 
 ## Review list of Semantic Segmentation
 * A peek of Semantic Segmentation 2018 ([mc.ai](https://mc.ai/a-peek-at-semantic-segmentation-2018/)) :star: :star: :star: :star:
