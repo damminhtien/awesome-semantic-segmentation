@@ -28,6 +28,10 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 | FCN | [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1605.06211v1.pdf)               | 67.2%                    | CVPR 2015 | [Caffe](https://github.com/shelhamer/fcn.berkeleyvision.org)                         |
 ### Variant
 * FCN with VGG(Resnet, Densenet) backbone: [pytorch](https://github.com/zengxianyu/FCN)
+* The easiest implementation of fully convolutional networks (FCN8s VGG): [pytorch](https://github.com/pochih/FCN-pytorch)
+* TernausNet (UNet model with VGG11 encoder pre-trained on Kaggle Carvana dataset https://arxiv.org/abs/1801.05746): [pytorch](https://github.com/ternaus/TernausNet)
+* TernausNetV2: Fully Convolutional Network for Instance Segmentation: [pytorch](https://github.com/ternaus/TernausNetV2)
+
 
 ## Review list of Semantic Segmentation
 * A peek of Semantic Segmentation 2018 ([mc.ai](https://mc.ai/a-peek-at-semantic-segmentation-2018/)) :star: :star: :star: :star:
@@ -48,6 +52,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 
 ## Framework for segmentation
 * [Semantic Segmentation Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite) (by George Seif): *Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!*
+* [Segmentation Training Pipeline](https://github.com/petrochenko-pavel-a/segmentation_training_pipeline): *Research Pipeline for image masking/segmentation in Keras*
 
 ## Related work 
 * [Atrous/ Dilated Convolution](http://www.ee.bgu.ac.il/~rrtammy/DNN/StudentPresentations/TopazDCNN_CRF.pptx)
