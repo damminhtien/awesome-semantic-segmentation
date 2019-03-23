@@ -42,6 +42,14 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * Lecture 11 - Detection and Segmentation - CS231n ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture11.pdf), [vid](https://www.youtube.com/watch?v=nDPWywWRIRo)): :star: :star: :star: :star: :star: 
 * A Survey of Semantic Segmentation 2016 ([arxiv](https://arxiv.org/pdf/1602.06541.pdf)) :star: :star: :star: :star: :star:
 
+## Case study
+* Dstl Satellite Imagery Competition, 3rd Place Winners' Interview: Vladimir & Sergey: [Blog](http://blog.kaggle.com/2017/05/09/dstl-satellite-imagery-competition-3rd-place-winners-interview-vladimir-sergey/), [Code](https://github.com/ternaus/kaggle_dstl_submission)
+* Carvana Image Masking Challenge–1st Place Winner's Interview: [Blog](http://blog.kaggle.com/2017/12/22/carvana-image-masking-first-place-interview/), [Code](https://github.com/asanakoy/kaggle_carvana_segmentation)
+* Data Science Bowl 2017, Predicting Lung Cancer: Solution Write-up, Team Deep Breath: [Blog](http://blog.kaggle.com/2017/05/16/data-science-bowl-2017-predicting-lung-cancer-solution-write-up-team-deep-breath/)
+* MICCAI 2017 Robotic Instrument Segmentation: [Code and explain](https://github.com/ternaus/robot-surgery-segmentation)
+* 2018 Data Science Bowl Find the nuclei in divergent images to advance medical discovery: [1st place](https://www.kaggle.com/c/data-science-bowl-2018/discussion/54741), [2nd](https://www.kaggle.com/c/data-science-bowl-2018/discussion/61170), [3rd](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56393), [4th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/55118), [5th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56326), [10th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56238)
+* Airbus Ship Detection Challenge: [4th place](https://www.kaggle.com/c/airbus-ship-detection/discussion/71667), [6th](https://www.kaggle.com/c/airbus-ship-detection/discussion/71782)
+
 ## Most used loss function
 * Pixel-wise cross entropy loss:
 * Dice loss: which is pretty nice for balancing dataset
