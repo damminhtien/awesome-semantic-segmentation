@@ -36,6 +36,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 ## Review list of Semantic Segmentation
 * A peek of Semantic Segmentation 2018 ([mc.ai](https://mc.ai/a-peek-at-semantic-segmentation-2018/)) :star: :star: :star: :star:
 * Semantic Segmentation guide 2018 ([towardds](https://towardsdatascience.com/semantic-segmentation-with-deep-learning-a-guide-and-code-e52fc8958823)) :star: :star: :star: :star:
+* An overview of semantic image segmentation ([jeremyjordan.me](https://www.jeremyjordan.me/semantic-segmentation/)) :star: :star: :star: :star: :star:
 * Recent progress in semantic image segmentation 2018 ([arxiv](https://arxiv.org/abs/1809.10198), [towardsdatascience](https://towardsdatascience.com/paper-summary-recent-progress-in-semantic-image-segmentation-d7b93ee1b705)) :star: :star: :star: :star:
 * A 2017 Guide to Semantic Segmentation Deep Learning Review ([blog.qure.ai](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review#large-kernel)) :star: :star: :star: :star: :star:
 * Review popular network architecture ([medium-towardds](https://towardsdatascience.com/@sh.tsang)) :star: :star: :star: :star: :star:
