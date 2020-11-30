@@ -6,7 +6,7 @@ Semantic segmentation is **a computer vision task in which we label specific reg
 
 Semantic segmentation is a critical module in robotics related applications, especially autonomous driving, remote sensing. Most of the research on semantic segmentation is focused on improving the accuracy with less attention paid to computationally efficient solutions.
 
-![Seft-driving-car](https://www.jeremyjordan.me/content/images/2018/05/deeplabcityscape.gif)
+![Seft-driving-car](https://miro.medium.com/max/640/0*Q1cE-LVilYVDHjQc)
 
 The recent appoarch in semantic segmentation is using deep neural network, specifically **Fully Convolutional Network** (a.k.a FCN). We can follow the trend of semantic segmenation approach at: [paper-with-code](https://paperswithcode.com/sota/semantic-segmentation-pascal-voc-2012).
 
