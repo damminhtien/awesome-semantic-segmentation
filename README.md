@@ -59,6 +59,12 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * Lovasz-Softmax loss:
 
 ## Dataset
+* [Visual Object Classes Challenge 2012 (VOC2012)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
+* [Cityscapes](https://www.cityscapes-dataset.com/)
+* [PASCAL-Context](https://cs.stanford.edu/~roozbeh/pascal-context/)
+* [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
+* [Semantic3d](http://www.semantic3d.net/)
+* [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
 
 ## Framework for segmentation
 * [Semantic Segmentation Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite) (by George Seif): *Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!*
