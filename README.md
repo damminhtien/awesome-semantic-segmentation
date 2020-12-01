@@ -35,6 +35,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 
 
 ## Review list of Semantic Segmentation
+* Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey 2020 ([University of Gour Banga, India](https://arxiv.org/pdf/2001.04074.pdf)) :star: :star: :star: :star: :star:
 * A peek of Semantic Segmentation 2018 ([mc.ai](https://mc.ai/a-peek-at-semantic-segmentation-2018/)) :star: :star: :star: :star:
 * Semantic Segmentation guide 2018 ([towardds](https://towardsdatascience.com/semantic-segmentation-with-deep-learning-a-guide-and-code-e52fc8958823)) :star: :star: :star: :star:
 * An overview of semantic image segmentation ([jeremyjordan.me](https://www.jeremyjordan.me/semantic-segmentation/)) :star: :star: :star: :star: :star:
