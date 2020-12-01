@@ -61,6 +61,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 
 ## Dataset
 * [Visual Object Classes Challenge 2012 (VOC2012)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
+* [COCO Dataset](http://cocodataset.org/#home)
 * [Cityscapes](https://www.cityscapes-dataset.com/)
 * [PASCAL-Context](https://cs.stanford.edu/~roozbeh/pascal-context/)
 * [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
