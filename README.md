@@ -35,7 +35,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 
 
 ## Review list of Semantic Segmentation
-* Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey 2020 ([University of Gour Banga, India](https://arxiv.org/pdf/2001.04074.pdf)) :star: :star: :star: :star: :star:
+* Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey 2020 ([University of Gour Banga,India](https://arxiv.org/pdf/2001.04074.pdf)) :star: :star: :star: :star: :star:
 * A peek of Semantic Segmentation 2018 ([mc.ai](https://mc.ai/a-peek-at-semantic-segmentation-2018/)) :star: :star: :star: :star:
 * Semantic Segmentation guide 2018 ([towardds](https://towardsdatascience.com/semantic-segmentation-with-deep-learning-a-guide-and-code-e52fc8958823)) :star: :star: :star: :star:
 * An overview of semantic image segmentation ([jeremyjordan.me](https://www.jeremyjordan.me/semantic-segmentation/)) :star: :star: :star: :star: :star:
@@ -60,11 +60,11 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * Lovasz-Softmax loss:
 
 ## Dataset
-* [Visual Object Classes Challenge 2012 (VOC2012)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
-* [COCO Dataset](http://cocodataset.org/#home)
-* [Cityscapes](https://www.cityscapes-dataset.com/)
+* [Visual Object Classes Challenge 2012 (VOC2012)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/): 400+ classes of real-world data
+* [COCO Dataset](http://cocodataset.org/#home): 164k images, 72 classes: 80 thing classes, 91 stuff classes and 1 class 'unlabeled'
+* [Cityscapes](https://www.cityscapes-dataset.com/): This dataset consists of segmentation ground truths for roads, lanes, vehicles and objects on road. The dataset contains 30 classes and of 50 cities collected over different environmental and weather conditions
 * [PASCAL-Context](https://cs.stanford.edu/~roozbeh/pascal-context/)
-* [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/)
+* [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/): 20k+ images
 * [Semantic3d](http://www.semantic3d.net/)
 * [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
 
