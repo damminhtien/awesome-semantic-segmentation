@@ -69,6 +69,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
 
 ## Framework for segmentation
+* [Semantic Segmentation in PyTorch](https://github.com/yassouali/pytorch_segmentation) (by yassouali): *Semantic segmentation models, datasets and losses implemented in PyTorch.*
 * [Semantic Segmentation Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite) (by George Seif): *Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!*
 * [Segmentation Training Pipeline](https://github.com/petrochenko-pavel-a/segmentation_training_pipeline): *Research Pipeline for image masking/segmentation in Keras*
 
