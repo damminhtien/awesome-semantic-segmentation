@@ -67,6 +67,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/): 20k+ images
 * [Semantic3d](http://www.semantic3d.net/)
 * [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
+* [lartpang/awesome-segmentation-saliency-dataset](https://github.com/lartpang/awesome-segmentation-saliency-dataset)
 
 ## Framework for segmentation
 * [Semantic Segmentation in PyTorch](https://github.com/yassouali/pytorch_segmentation) (by yassouali): *Semantic segmentation models, datasets and losses implemented in PyTorch.*
