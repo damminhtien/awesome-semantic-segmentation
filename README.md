@@ -27,7 +27,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 | ParseNet | [ParseNet: Looking Wider to See Better](https://arxiv.org/pdf/1506.04579v2.pdf)               | 69.8%                    | 15 Jun 2015  | [Caffe](https://github.com/debidatta/caffe-parsenet)                         |
 | Dilated Convolutions | [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/pdf/1511.07122v3.pdf)               | 67.6%                    | 23 Nov 2015  | [Caffe](https://github.com/fyu/dilation)                         |
 | FCN | [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1605.06211v1.pdf)               | 67.2%                    | CVPR 2015 | [Caffe](https://github.com/shelhamer/fcn.berkeleyvision.org)                         |
-### Variant
+### Variants
 * FCN with VGG(Resnet, Densenet) backbone: [pytorch](https://github.com/zengxianyu/FCN)
 * The easiest implementation of fully convolutional networks (FCN8s VGG): [pytorch](https://github.com/pochih/FCN-pytorch)
 * TernausNet (UNet model with VGG11 encoder pre-trained on Kaggle Carvana dataset [paper](https://arxiv.org/abs/1801.05746): [pytorch](https://github.com/ternaus/TernausNet)
@@ -45,7 +45,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * Lecture 11 - Detection and Segmentation - CS231n ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture11.pdf), [vid](https://www.youtube.com/watch?v=nDPWywWRIRo)): :star: :star: :star: :star: :star: 
 * A Survey of Semantic Segmentation 2016 ([arxiv](https://arxiv.org/pdf/1602.06541.pdf)) :star: :star: :star: :star: :star:
 
-## Case study
+## Case studies
 * Dstl Satellite Imagery Competition, 3rd Place Winners' Interview: Vladimir & Sergey: [Blog](http://blog.kaggle.com/2017/05/09/dstl-satellite-imagery-competition-3rd-place-winners-interview-vladimir-sergey/), [Code](https://github.com/ternaus/kaggle_dstl_submission)
 * Carvana Image Masking Challenge–1st Place Winner's Interview: [Blog](http://blog.kaggle.com/2017/12/22/carvana-image-masking-first-place-interview/), [Code](https://github.com/asanakoy/kaggle_carvana_segmentation)
 * Data Science Bowl 2017, Predicting Lung Cancer: Solution Write-up, Team Deep Breath: [Blog](http://blog.kaggle.com/2017/05/16/data-science-bowl-2017-predicting-lung-cancer-solution-write-up-team-deep-breath/)
@@ -53,13 +53,13 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * 2018 Data Science Bowl Find the nuclei in divergent images to advance medical discovery: [1st place](https://www.kaggle.com/c/data-science-bowl-2018/discussion/54741), [2nd](https://www.kaggle.com/c/data-science-bowl-2018/discussion/61170), [3rd](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56393), [4th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/55118), [5th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56326), [10th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56238)
 * Airbus Ship Detection Challenge: [4th place](https://www.kaggle.com/c/airbus-ship-detection/discussion/71667), [6th](https://www.kaggle.com/c/airbus-ship-detection/discussion/71782)
 
-## Most used loss function
+## Most used loss functions
 * Pixel-wise cross entropy loss:
 * Dice loss: which is pretty nice for balancing dataset
 * Focal loss:
 * Lovasz-Softmax loss:
 
-## Dataset
+## Datasets
 * [Visual Object Classes Challenge 2012 (VOC2012)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/): 400+ classes of real-world data
 * [COCO Dataset](http://cocodataset.org/#home): 164k images, 72 classes: 80 thing classes, 91 stuff classes and 1 class 'unlabeled'
 * [Cityscapes](https://www.cityscapes-dataset.com/): This dataset consists of segmentation ground truths for roads, lanes, vehicles and objects on road. The dataset contains 30 classes and of 50 cities collected over different environmental and weather conditions
@@ -70,12 +70,12 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * [lartpang/awesome-segmentation-saliency-dataset](https://github.com/lartpang/awesome-segmentation-saliency-dataset)
 * [Kaggle](https://www.kaggle.com/search?q=segmentation+in%3Adatasets)
 
-## Framework for segmentation
+## Frameworks for segmentation
 * [Semantic Segmentation in PyTorch](https://github.com/yassouali/pytorch_segmentation) (by yassouali): *Semantic segmentation models, datasets and losses implemented in PyTorch.*
 * [Semantic Segmentation Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite) (by George Seif): *Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!*
 * [Segmentation Training Pipeline](https://github.com/petrochenko-pavel-a/segmentation_training_pipeline): *Research Pipeline for image masking/segmentation in Keras*
 
-## Related work 
+## Related techniques 
 * [Atrous/ Dilated Convolution](http://www.ee.bgu.ac.il/~rrtammy/DNN/StudentPresentations/TopazDCNN_CRF.pptx)
 * [Transpose Convolution](https://towardsdatascience.com/up-sampling-with-transposed-convolution-9ae4f2df52d0) (Deconvolution, Upconvolution)
 * [Unpooling](https://towardsdatascience.com/review-deconvnet-unpooling-layer-semantic-segmentation-55cf8a6e380e)
