@@ -30,7 +30,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 ### Variant
 * FCN with VGG(Resnet, Densenet) backbone: [pytorch](https://github.com/zengxianyu/FCN)
 * The easiest implementation of fully convolutional networks (FCN8s VGG): [pytorch](https://github.com/pochih/FCN-pytorch)
-* TernausNet (UNet model with VGG11 encoder pre-trained on Kaggle Carvana dataset https://arxiv.org/abs/1801.05746): [pytorch](https://github.com/ternaus/TernausNet)
+* TernausNet (UNet model with VGG11 encoder pre-trained on Kaggle Carvana dataset [paper](https://arxiv.org/abs/1801.05746): [pytorch](https://github.com/ternaus/TernausNet)
 * TernausNetV2: Fully Convolutional Network for Instance Segmentation: [pytorch](https://github.com/ternaus/TernausNetV2)
 
 
