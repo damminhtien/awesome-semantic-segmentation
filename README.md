@@ -74,6 +74,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * [Semantic Segmentation in PyTorch](https://github.com/yassouali/pytorch_segmentation) (by yassouali): *Semantic segmentation models, datasets and losses implemented in PyTorch.*
 * [Semantic Segmentation Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite) (by George Seif): *Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!*
 * [Segmentation Training Pipeline](https://github.com/petrochenko-pavel-a/segmentation_training_pipeline): *Research Pipeline for image masking/segmentation in Keras*
+* [Tramac/awesome-semantic-segmentation-pytorch](https://github.com/Tramac/awesome-semantic-segmentation-pytorch) *Semantic Segmentation on PyTorch (include FCN, PSPNet, Deeplabv3, Deeplabv3+, DANet, DenseASPP, BiSeNet, EncNet, DUNet, ICNet, ENet, OCNet, CCNet, PSANet, CGNet, ESPNet, LEDNet, DFANet)*
 
 ## Related techniques 
 * [Atrous/ Dilated Convolution](http://www.ee.bgu.ac.il/~rrtammy/DNN/StudentPresentations/TopazDCNN_CRF.pptx)
