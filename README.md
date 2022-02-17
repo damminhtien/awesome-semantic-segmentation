@@ -52,6 +52,11 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * MICCAI 2017 Robotic Instrument Segmentation: [Code and explain](https://github.com/ternaus/robot-surgery-segmentation)
 * 2018 Data Science Bowl Find the nuclei in divergent images to advance medical discovery: [1st place](https://www.kaggle.com/c/data-science-bowl-2018/discussion/54741), [2nd](https://www.kaggle.com/c/data-science-bowl-2018/discussion/61170), [3rd](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56393), [4th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/55118), [5th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56326), [10th](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56238)
 * Airbus Ship Detection Challenge: [4th place](https://www.kaggle.com/c/airbus-ship-detection/discussion/71667), [6th](https://www.kaggle.com/c/airbus-ship-detection/discussion/71782)
+* iMaterialist (Fashion) 2020 at FGVC7: [1st place](https://www.kaggle.com/c/imaterialist-fashion-2020-fgvc7/discussion/154306)
+* Understanding Clouds from Satellite Images: [1st place](https://www.kaggle.com/c/understanding_cloud_organization/discussion/118080), [2nd](https://www.kaggle.com/c/understanding_cloud_organization/discussion/118255), [3rd](https://www.kaggle.com/c/understanding_cloud_organization/discussion/117949)
+* Global Wheat Detection: [1st place](https://www.kaggle.com/c/global-wheat-detection/discussion/172418), [2nd](https://www.kaggle.com/c/global-wheat-detection/discussion/175961), [3rd](https://www.kaggle.com/c/global-wheat-detection/discussion/179055)
+* Severstal: Steel Defect Detection: [1st place](https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114254), [4th](https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114716), [7th](https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114215)
+* Human Protein Atlas Image Classification: [1st place](https://www.kaggle.com/c/human-protein-atlas-image-classification/discussion/78109), [5th](https://www.kaggle.com/c/human-protein-atlas-image-classification/discussion/77731)
 
 ## Most used loss functions
 * Pixel-wise cross entropy loss:
