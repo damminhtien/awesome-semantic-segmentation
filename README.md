@@ -32,6 +32,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * The easiest implementation of fully convolutional networks (FCN8s VGG): [pytorch](https://github.com/pochih/FCN-pytorch)
 * TernausNet (UNet model with VGG11 encoder pre-trained on Kaggle Carvana dataset [paper](https://arxiv.org/abs/1801.05746): [pytorch](https://github.com/ternaus/TernausNet)
 * TernausNetV2: Fully Convolutional Network for Instance Segmentation: [pytorch](https://github.com/ternaus/TernausNetV2)
+* [Light-Weight RefineNet for Real-Time Semantic Segmentation](https://github.com/DrSleep/light-weight-refinenet)
 
 
 ## Review list of Semantic Segmentation
