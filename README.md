@@ -84,6 +84,7 @@ Evaluate metrics: **mIOU**, accuracy, speed,...
 * [Tramac/awesome-semantic-segmentation-pytorch](https://github.com/Tramac/awesome-semantic-segmentation-pytorch) *Semantic Segmentation on PyTorch (include FCN, PSPNet, Deeplabv3, Deeplabv3+, DANet, DenseASPP, BiSeNet, EncNet, DUNet, ICNet, ENet, OCNet, CCNet, PSANet, CGNet, ESPNet, LEDNet, DFANet)*
 * [CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch) *Pytorch implementation for Semantic Segmentation/Scene Parsing on MIT ADE20K dataset*
 * [divamgupta/image-segmentation-keras](https://github.com/divamgupta/image-segmentation-keras) *Implementation of Segnet, FCN, UNet , PSPNet and other models in Keras.*
+* [PaddlePaddle/PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg): Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc. [paper](https://arxiv.org/abs/2101.06175)
 
 ## Related techniques 
 * [Atrous/ Dilated Convolution](http://www.ee.bgu.ac.il/~rrtammy/DNN/StudentPresentations/TopazDCNN_CRF.pptx)
