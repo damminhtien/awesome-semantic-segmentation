@@ -18,7 +18,7 @@ A few practical notes for 2026:
 - The field is no longer centered only on **PASCAL VOC 2012**. Common modern benchmarks include **ADE20K**, **Cityscapes**, **COCO-Stuff**, **Mapillary Vistas**, **BDD100K**, **LoveDA**, and domain-specific medical / remote-sensing datasets.
 - Recent research increasingly overlaps with **instance segmentation**, **panoptic segmentation**, **open-vocabulary segmentation**, **interactive segmentation**, and **video segmentation**.
 
-![Self-driving car](https://miro.medium.com/max/640/0*Q1cE-LVilYVDHjQc)
+![Roadmap](roadmap.png)
 
 Useful leaderboard / trend trackers:
 - [Papers with Code: Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation)
